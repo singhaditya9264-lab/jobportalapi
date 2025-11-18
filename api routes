@@ -41,6 +41,10 @@ get all jobs....globally...
 
 admin related routes.....
 
+admin profile
+
+/api/admin/profile
+
 get all users
 
 /api/admin/users  auth req...admin

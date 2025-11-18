@@ -4,7 +4,7 @@ const getAllGlobalJobs = async(req ,res)=>{
 
     try {
 
-       const globalJobs = await Job.find()
+       const globalJobs = await Job.find({}).select("-userId")
       
         res.status(200).json({
                 message: "global jobs are fetched successfully",
