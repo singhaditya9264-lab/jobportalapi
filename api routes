@@ -1,0 +1,63 @@
+
+user api routes.....
+
+register user
+
+/api/user/register
+
+login user
+
+/api/user/login
+
+user profile
+
+/api/user/profile  auth req..
+
+
+
+job api routes......user
+
+add a job
+
+/api/job/add auth req...
+
+get all jobs
+
+/api/job/get-all?userId=userId  auth req...admin can get other user job lists through user id 
+
+update a job
+
+/api/job/update/:id  auth req...
+
+delete a job 
+
+/api/job/delete/:id auth req...
+
+
+get all jobs....globally...
+
+/api/job/global/all
+
+
+admin related routes.....
+
+get all users
+
+/api/admin/users  auth req...admin
+
+delete a user 
+
+/api/admin/delete/user/:id  auth req...admin
+
+
+
+
+
+
+
+
+
+
+
+
+
